@@ -1,0 +1,229 @@
+
+.Div1{
+    padding: 60px -4px;
+}
+/* start content1 */
+.content1{
+    text-align: center;
+    padding: 10px;
+    
+}
+.content1 h2{
+    color: #030303;
+font-size: 48px;
+font-family: Poppins;
+font-weight: 600;
+}
+.content1 p{
+    color: #92929D;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 300;
+   
+}
+.content1 span{
+    color: #7B1D80;
+font-size: 48px;
+font-family: Poppins;
+font-weight: 600;
+word-wrap: break-word
+}
+/* End contentt1 */
+
+/* start content2 */
+.content2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+@media (max-width: 767px) {
+    .content1 h2{
+     font-size: 30px;
+     text-align: center;
+    }
+    .content1 span{
+        font-size: 30px;
+    }
+    
+    .content2 .card1,
+    .content2 .card2,
+    .content2 .card3,
+    .content2 .card4,
+    .content2 .card5,
+    .content2 .card6{
+        margin:auto 30px;
+
+        width: 400px;
+        height: 195px;
+    }
+    .content3 div{
+        padding: 7px;
+        margin: 7px;
+        
+    }
+    
+  }
+.content2 img{
+    width: 80px;
+height: 80px;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6{
+    border-radius: 12px;
+    border: 2px solid var(--background, #FEE9FF);
+    /* Shadow */
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.15);
+   width: 500px;
+   height: 190px;
+   
+
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6{
+    display: flex;
+    padding: 32px 24px;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.divcard1,
+.divcard2,
+.divcard3,
+.divcard4,
+.divcard5,
+.divcard6{
+display: flex;
+align-items:flex-start;
+gap: 24px;
+}
+.textcard1,
+.textcard2,
+.textcard3,                
+.textcard4,
+.textcard5,
+.textcard6{
+   text-align: start; 
+    
+}
+
+.content2 h3{
+    color: var(--Black, #030303);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.content2 p{
+    color: var(--Grey, #92929D);
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+.iconcard1,
+.iconcard2,
+.iconcard3,
+.iconcard4,
+.iconcard5,
+.iconcard6{
+       display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6{
+    display: flex;
+    border-radius: 1500px;
+    border: 1px solid #FEE9FF;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    width: 20px;
+    height: 20px;
+   
+} 
+/* End content2 */
+
+/* start content3 */
+
+.content3{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+.content3 div{
+    border-radius: 8px;
+    border: 1px solid var(--Black, #030303);
+    /* Shadow */
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.15);
+    margin: 7px;
+    padding: 7px;
+    
+    
+}
+.content3 a{
+   color: #030303;
+   font-weight: 70px;
+   transition: 0.3s;
+    
+}
+.content3 div:hover{
+    
+    background-color: #7B1D80;
+}
+
+
+.row1,
+.row2{
+    display: flex;
+padding: 10px;
+text-align: center;
+}
+.row1 svg,
+.row2 svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.number{
+    background:  #7B1D80;
+    color: white;
+}
+/* End */
+
+
+
+
+
+
+/*  large screens */
+@media (min-width:792px) and (max-width:940px) {}
+
+@media (min-width:1024px) and (max-width:1200px) {}
